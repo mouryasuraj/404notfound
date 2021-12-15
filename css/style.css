@@ -1,120 +1,121 @@
-            @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .header {
-            font-family: 'Inconsolata', monospace;
-            position: absolute;
-            top: 40px;
-            left: 77px;
-        }
-        
-        .card {
-            width: 540px;
-            height: 414px;
-            position: absolute;
-            top: 235px;
-            left: 77px;
-        }
-        
-        img {
-            width: 100%;
-        }
-        
-        .card1 {
-            width: 590px;
-            height: 190px;
-            position: absolute;
-            top: 235px;
-            left: 735px;
-            font-family: 'Space Mono', monospace;
-        }
-        
-        .card1 p {
-            font-size: 64px;
-            font-style: normal;
-            font-weight: lighter;
-        }
-        
-        .card2 {
-            font-family: 'Space Mono', monospace;
-            width: 270px;
-            height: 108px;
-            position: absolute;
-            top: 461px;
-            left: 736px;
-        }
-        
-        .card2 p {
-            line-height: 35px;
-            letter-spacing: -3.5%;
-        }
-        
-        .btn {
-            position: absolute;
-            top: 657px;
-            left: 736px;
-            font-family: 'Space Mono', monospace;
-            text-decoration: none;
-            color: white;
-            background-color: #333333;
-            padding: 10px 15px;
-        }
-        /* ======================max width 400px========================== */
-        
-        @media(max-width:500px) {
-            .header {
-                font-family: 'Inconsolata', monospace;
-                position: absolute;
-                top: 20px;
-                left: 24px;
-            }
-            .card {
-                width: 286px;
-                height: 220px;
-                position: absolute;
-                top: 109px;
-                left: 85px;
-            }
-            img {
-                width: 100%;
-            }
-            .card1 {
-                width: 350px;
-                height: 142px;
-                position: absolute;
-                top: 407px;
-                left: 71px;
-                font-family: 'Space Mono', monospace;
-            }
-            .card1 p {
-                font-size: 40px;
-                font-style: normal;
-                font-weight: lighter;
-            }
-            .card2 {
-                font-family: 'Space Mono', monospace;
-                width: 328px;
-                height: 100px;
-                position: absolute;
-                top: 579px;
-                left: 71px;
-            }
-            .card2 p {
-                line-height: 35px;
-                letter-spacing: -3.5%;
-            }
-            .btn {
-                position: absolute;
-                top: 726px;
-                left: 71px;
-                font-family: 'Space Mono', monospace;
-                text-decoration: none;
-                color: white;
-                background-color: #333333;
-                padding: 10px 15px;
-            }
+                @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .header {
+                    font-family: 'Inconsolata', monospace;
+                    position: absolute;
+                    top: 40px;
+                    left: 77px;
+                }
+                
+                .card {
+                    width: 540px;
+                    height: 414px;
+                    position: absolute;
+                    top: 235px;
+                    left: 77px;
+                }
+                
+                img {
+                    width: 100%;
+                }
+                
+                .card1 {
+                    width: 590px;
+                    height: 190px;
+                    position: absolute;
+                    top: 235px;
+                    left: 735px;
+                    font-family: 'Space Mono', monospace;
+                }
+                
+                .card1 p {
+                    font-size: 64px;
+                    font-style: normal;
+                    font-weight: lighter;
+                }
+                
+                .card2 {
+                    font-family: 'Space Mono', monospace;
+                    width: 270px;
+                    height: 108px;
+                    position: absolute;
+                    top: 461px;
+                    left: 736px;
+                }
+                
+                .card2 p {
+                    line-height: 35px;
+                    letter-spacing: -3.5%;
+                }
+                
+                .btn {
+                    position: absolute;
+                    top: 657px;
+                    left: 736px;
+                    font-family: 'Space Mono', monospace;
+                    text-decoration: none;
+                    color: white;
+                    background-color: #333333;
+                    padding: 10px 15px;
+                }
+                /* ======================max width 400px========================== */
+                
+                @media(max-width:500px) {
+                    .header {
+                        font-family: 'Inconsolata', monospace;
+                        position: absolute;
+                        top: 20px;
+                        left: 24px;
+                    }
+                    .card {
+                        width: 286px;
+                        height: 220px;
+                        position: absolute;
+                        top: 109px;
+                        left: 85px;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                    .card1 {
+                        width: 350px;
+                        height: 142px;
+                        position: absolute;
+                        top: 407px;
+                        left: 71px;
+                        font-family: 'Space Mono', monospace;
+                    }
+                    .card1 p {
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: lighter;
+                    }
+                    .card2 {
+                        font-family: 'Space Mono', monospace;
+                        width: 328px;
+                        height: 100px;
+                        position: absolute;
+                        top: 579px;
+                        left: 71px;
+                    }
+                    .card2 p {
+                        line-height: 35px;
+                        letter-spacing: -3.5%;
+                    }
+                    .btn {
+                        position: absolute;
+                        top: 726px;
+                        left: 71px;
+                        font-family: 'Space Mono', monospace;
+                        text-decoration: none;
+                        color: white;
+                        background-color: #333333;
+                        padding: 10px 15px;
+                    }
+                }
